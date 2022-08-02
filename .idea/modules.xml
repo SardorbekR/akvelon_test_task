@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/akvelon_test_task.iml" filepath="$PROJECT_DIR$/akvelon_test_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rate_limiter.iml" filepath="$PROJECT_DIR$/rate_limiter.iml" />
     </modules>
   </component>
 </project>

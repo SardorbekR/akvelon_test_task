@@ -1,4 +1,4 @@
-import 'package:akvelon_test_task/rate_limiter_util.dart';
+import 'package:rate_limiter/rate_limiter_util.dart';
 
 void main() {
   final rateLimiterUtil = RateLimiterUtil();
