@@ -6,7 +6,7 @@ void main() {
   ///Here it will send 20 requests in a row,
   ///but since allowed only 10 requests in 30 seconds
   ///it will stop after sending 10 requests until this 30 seconds pass.
-  ///when 30 seconds pass, it will send rest of the requests
+  ///when 30 seconds pass, it will send rest of the requests.
   for (int i = 1; i <= 20; i++) {
     rateLimiterUtil.throttleRequest(
       request: () {
