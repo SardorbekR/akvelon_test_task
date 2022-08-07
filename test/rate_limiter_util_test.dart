@@ -46,7 +46,7 @@ void main() {
   });
 
   test('At most allowed only 2 requests per minute', () async {
-    ///Attempt to send 5 requests in a row
+    ///Attempt to send 5 requests in a row.
     for (int i = 1; i <= 5; i++) {
       //Shortest interval: 1 request per 0.1 second
       rateLimiterUtil.throttleRequest(
